@@ -1,0 +1,32 @@
+
+:root{
+    --corPrimaria: black;
+}
+
+
+
+.carousel{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+.carousel-item {
+    /* 90% da altura da tela*/
+    height: 90vh;
+}
+.carousel-item img{
+    /* 100% da altura e largura do elemento onde está inserida */
+    object-fit: cover;
+    height: 100%; 
+    width: auto; 
+}
+
+.primeira-faixa{
+    background-color: rgb(198, 145, 115);
+    height: 400px;
+}
+
+.primeira-faixa row{
+    width: 100%;
+    height: 100%;
+}
