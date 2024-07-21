@@ -23,3 +23,15 @@
     text-shadow: 1px 1px black;
 }
 
+footer{
+    height: 50px;
+    text-align: center;
+    margin: auto;
+    color: red;
+}
+
+footer i{
+    color: red;
+}
+
+
