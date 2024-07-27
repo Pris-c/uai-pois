@@ -23,14 +23,12 @@
     text-shadow: 1px 1px black;
 }
 
-
 .contact__container {
     display: flex;
     flex-flow: row wrap;
     column-gap: 20px;
     padding: 20px 0;
 }
-
 
 .contact-form {
     display: flex;
@@ -54,6 +52,9 @@
     padding: 5px;
 }
 
+.toast-header{
+    background: white !important;
+}
 
 footer{
     height: 50px;
@@ -66,4 +67,10 @@ footer{
 
 footer i{
     color: red;
+}
+
+
+  
+input:valid {
+border: 2px solid black;
 }
