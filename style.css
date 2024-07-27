@@ -23,6 +23,12 @@
     text-shadow: 1px 1px black;
 }
 
+.voltaire-regular {
+    font-family: "Voltaire", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .contact__container {
     display: flex;
     flex-flow: row wrap;
@@ -41,18 +47,20 @@
     flex-grow: 1;
 }
 
-.voltaire-regular {
-    font-family: "Voltaire", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+input:valid {
+border: 2px solid black;
+}
 
 .row{
     max-height: 100vh;
     padding: 5px;
 }
 
-.toast-header{
+.toast-header {
+    background: white !important;
+}
+
+.toast-body {
     background: white !important;
 }
 
@@ -61,16 +69,9 @@ footer{
     text-align: center;
     margin: auto;
     color: red;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    border: 3px;
 }
 
 footer i{
     color: red;
-}
-
-
-  
-input:valid {
-border: 2px solid black;
 }
