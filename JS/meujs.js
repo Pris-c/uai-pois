@@ -11,6 +11,8 @@ document.addEventListener('DOMContentLoaded', function() {
     event.preventDefault();
     if (form.checkValidity()) {
       toast.show();
+      form.reset();
+      button.disabled = true;
     } else {
       form.reportValidity();
     }
