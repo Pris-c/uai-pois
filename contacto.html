@@ -6,7 +6,7 @@
     <title>Uai Pois</title>
 
     <!-- FAVICON -->
-    <link rel="icon" type="image/x-icon" href="imagens/favicon/mg-favicon.png" sizes="any">
+    <link rel="icon" type="image/x-icon" href="imagens/favicon.png" sizes="any">
 
 
     <!-- CSS -->
@@ -21,10 +21,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Voltaire&display=swap" rel="stylesheet">
     
 </head>
-<body>
+<body class="mw-100">
 
       <!-- CABEÇALHO -->
-      <header class="text-center p-3 sticky-top bg-light">
+      <header class="text-center p-1 sticky-top bg-light">
         
         <!-- NAVBAR -->
         <nav class="navbar navbar-expand-lg">
@@ -46,10 +46,10 @@
                   <li class="nav-item">
                     <!--LINKS-->
                     <!-- EDITAR ACTIVE LINK -->
-                    <a class="nav-link active" aria-current="page" href="index.html">Início</a>
+                    <a class="nav-link" aria-current="page" href="index.html">Início</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="...">Culinária</a>
+                    <a class="nav-link" href="culinaria.html">Culinária</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="...">Turismo</a>
@@ -58,7 +58,7 @@
                     <a class="nav-link" href="...">Festas</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">Contacto</a>
+                    <a class="nav-link active" href="contacto.html">Contacto</a>
                   </li>
                 </ul>
                  <!--FIM LINKS-->
@@ -83,8 +83,8 @@
 
     <!-- CONTEÚDO -->
     <main class="pb-5">
-        <div class="container-fluid">     
-          <div class="contact__container row">
+        <div class="container-fluid">
+          <div class="contact__container row contato-row">
 
               <!-- IMAGEM-->
                 <div class="col-12 col-md-6">
@@ -103,7 +103,7 @@
                   </h2>  
                   <input type="text" required placeholder="Digite o seu nome"/>
                   <input type="text" required formControlName="assunto" placeholder="Digite o assunto"/>
-                  <input type="tel" required placeholder="(351) 999 988 877"/>
+                  <input type="tel" required placeholder="(351) 999 999 999"/>
                   <input type="email" required placeholder="Digite o seu e-mail"/>
                   <textarea minlength="10" maxlength="300" required placeholder="Digite sua mensagem..." rows="8"></textarea>
                   <button disabled type="submit" id="enviarToastBtn" class="btn btn-lg btn-danger mb-5">Enviar</button>

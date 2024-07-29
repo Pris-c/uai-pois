@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     border: 0;
-    background: url("wpp-saothome.jpg") no-repeat center center fixed;
+    background: url("imagens/wpp-saothome.jpg") no-repeat center center fixed;
     background-size: cover;
     
 }
@@ -10,6 +10,7 @@
 .navbar-collapse{
     padding-left: 100px;
 }
+
 
 .main-nav-active a{
     color: white !important;
@@ -47,11 +48,11 @@
     flex-grow: 1;
 }
 
-input:valid {
-border: 2px solid black;
+#formulario-contato input:valid {
+    border: 2px solid black;
 }
 
-.row{
+.contato-row{
     max-height: 100vh;
     padding: 5px;
 }
@@ -74,4 +75,16 @@ footer{
 
 footer i{
     color: red;
+}
+
+.culinaria-page{
+    background-image: url('imagens/textura.jpeg');
+    background-size: auto;
+    background-repeat: repeat;
+    width: auto;
+    height: 100vh;
+}
+
+.texto-culinaria{
+    background-color: rgba(255, 255, 255, 0.4)
 }
