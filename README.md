@@ -1,12 +1,10 @@
 # Uai Pois <img src="imagens/contacto/bandeira-favicon.png" alt="Icone bandeira MG" width="20"/>
 
-O **Uai Pois** é um site criado para celebrar e compartilhar a rica cultura de Minas Gerais. Através dele, você poderá explorar aspectos incríveis da culinária local, apreciar a beleza dos destinos turísticos, conhecer as tradicionais festas e se entregar à riqueza cultural do estado. Navegue pelas nossas seções e descubra tudo o que Minas tem a oferecer.
-
+O **Uai Pois** é um site criado para celebrar e compartilhar a rica cultura de Minas Gerais. Através dele, você poderá explorar aspectos incríveis da culinária local, apreciar a beleza dos destinos turísticos, conhecer as tradicionais festas e se entregar à riqueza cultural do estado. Navegue pelas nossas seções e descubra tudo o que Minas tem a oferecer. [Visite aqui !](https://pris-c.github.io/uai-pois/index.html)
 
 | ![Imagem 1](imagens/prints-paginas/pagina-inicial.png) | ![Imagem 2](imagens/prints-paginas/pagina-culinaria.png) | ![Imagem 3](imagens/prints-paginas/pagina-contacto.png) |
-|:------------------------------------------------------:|:------------------------------------------------------:|:------------------------------------------------------:|
-| Página Inicial                                        | Página Culinária                                      | Página Contacto                                        |
-
+| :----------------------------------------------------: | :------------------------------------------------------: | :-----------------------------------------------------: |
+|                     Página Inicial                     |                     Página Culinária                     |                     Página Contacto                     |
 
 ## Estrutura do Projeto
 
@@ -52,33 +50,36 @@ uai-pois/
 └── turismo.html
 ```
 
-
-
 ## Descrição das Páginas
 
 ### Página Inicial (`index.html`)
+
 - **Descrição**: Página inicial do site.
 - **Recursos**:
   - Navbar com links para outras seções.
   - Rodapé com links para redes sociais.
 
 ### Culinária (`culinaria.html`)
+
 - **Descrição**: Apresenta a rica gastronomia mineira com textos descritivos e uma galeria de imagens.
 - **Recursos**:
   - Galeria de imagens de pratos típicos.
   - Texto descritivo sobre a influência e importância da culinária mineira.
 
 ### Turismo (`turismo.html`)
+
 - **Descrição**: Informações sobre os pontos turísticos de Minas Gerais.
 - **Recursos**:
   - Página não implementada
 
 ### Festas (`festas.html`)
+
 - **Descrição**: Aborda as festas tradicionais de Minas Gerais.
 - **Recursos**:
   - Página não implementada
 
 ### Contacto (`contacto.html`)
+
 - **Descrição**: Página de contato para os usuários entrarem em comunicação.
 - **Recursos**:
   - Formulário de contato com campos para nome, assunto, telefone, e-mail e mensagem.
@@ -93,17 +94,18 @@ uai-pois/
 ## Como Executar o Projeto
 
 1. Clone o repositório:
+
    ```sh
    git clone https://github.com/Pris-c/uai-pois.git
    ```
 
 2. Navegue até o diretório do projeto
+
    ```sh
    cd uai-pois
    ```
 
 3. Abra o arquivo `index.html` em um navegador web para visualizar o site.
-
 
 ## Contribuição
 
