@@ -12,6 +12,7 @@ O **Uai Pois** é um site criado para celebrar e compartilhar a rica cultura de 
 
 O projeto está organizado da seguinte forma:
 
+```plaintext
 uai-pois/
 ├── imagens/
 │ ├── comum/
@@ -49,6 +50,7 @@ uai-pois/
 ├── festas.html
 ├── index.html
 └── turismo.html
+```
 
 
 
