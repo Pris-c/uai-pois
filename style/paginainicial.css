@@ -1,5 +1,5 @@
 .full-bg {
-    background: url("/imagens/paginainicial/wpp-saothome.jpg") no-repeat center center fixed;
+    background: url("../imagens/paginainicial/wpp-saothome.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
