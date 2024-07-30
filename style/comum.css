@@ -47,3 +47,7 @@ footer {
 footer i {
     color: red;
 }
+
+.toast-container img{
+    max-width: 150px;
+}

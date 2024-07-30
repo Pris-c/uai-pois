@@ -72,7 +72,7 @@
           <!-- BARRA DE PESQUISA-->
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="O que estás a procura?" aria-label="Search">
-            <button class="btn btn-danger" type="submit">Pesquisar</button>
+            <button id="pesquisarBtn" class="btn btn-danger" type="button">Pesquisar</button>
           </form>
           <!-- FIM BARRA DE PESQUISA-->
         </div>
@@ -81,6 +81,18 @@
 
     </nav>
     <!-- FIM NAVBAR -->
+
+    <!-- TOAST PESQUISAR -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+      <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+          <img src="./imagens/comum/pesquisar.webp" class="rounded me-2" alt="Pesquisando">
+          <strong class="me-auto">Talvez você deva usar o Google...</strong>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+      </div>
+    </div>
+    <!-- FIM TOAST PESQUISAR -->
 
   </header>
   <!-- FIM CABEÇALHO -->
@@ -125,9 +137,9 @@
 
         <img src="imagens/culinaria/carnedesol.jpg" class="w-100 shadow-1-strong rounded mb-4"
           alt="Carne de Sol com Mandioca" title="Carne de Sol com Mandioca" />
-          
-        <img src="imagens/culinaria/vacaatolada.jpg" class="w-100 shadow-1-strong rounded mb-4"
-        alt="Vaca Atolada" title="Vaca Atolada" />
+
+        <img src="imagens/culinaria/vacaatolada.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Vaca Atolada"
+          title="Vaca Atolada" />
       </div>
       <!-- FIM COLUNA 1 -->
 
@@ -143,7 +155,7 @@
           title="Torresmo" />
 
         <img src="imagens/culinaria/tutudefeijao.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Tutu de Feijão"
-        title="Tutu de Feijão" />
+          title="Tutu de Feijão" />
 
 
       </div>
@@ -164,10 +176,10 @@
         <img src="imagens/culinaria/goiabada.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Goiabada"
           title="Goiabada" />
 
-          <img src="imagens/culinaria/frangocaipira.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Frango Caipira"
+        <img src="imagens/culinaria/frangocaipira.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Frango Caipira"
           title="Frango Caipira" />
       </div>
-      
+
       <!-- FIM COLUNA 3-->
 
     </div>
@@ -196,6 +208,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+  <!-- MEU JS-->
+  <script src="script/meujs.js"></script>
 
 </body>
 
