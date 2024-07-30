@@ -1,0 +1,39 @@
+/* COMUM A MAIS DE UMA PÁGINA */
+.page-bg {
+    background-image: url('/imagens/comum/textura.jpeg');
+    background-size: auto;
+    background-repeat: repeat;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.comum-header {
+    background-color: #F6F6F6;
+    height: 90px;
+}
+
+main {
+    margin-top: 90px;
+}
+
+.voltaire-regular {
+    font-family: "Voltaire", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* FOOTER */
+footer {
+    margin: auto;
+    color: red;
+    border: 3px;
+    background-color: #F6F6F6;
+}
+
+.footer-row {
+    max-width: 100%;
+}
+
+footer i {
+    color: red;
+}
