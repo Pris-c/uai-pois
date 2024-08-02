@@ -1,14 +1,14 @@
-# Uai Pois <img src="imagens/contacto/bandeira-favicon.png" alt="Icone bandeira MG" width="20"/>
+# Uai Pois <img src="imagens/contacto/bandeira-favicon.png" alt="Minas flag icon" width="20"/>
 
-O **Uai Pois** é um site criado para celebrar e compartilhar a rica cultura de Minas Gerais. Através dele, você poderá explorar aspectos incríveis da culinária local, apreciar a beleza dos destinos turísticos, conhecer as tradicionais festas e se entregar à riqueza cultural do estado. Navegue pelas nossas seções e descubra tudo o que Minas tem a oferecer. [Visite aqui !](https://pris-c.github.io/uai-pois/index.html)
+**Uai Pois** is a static website created to celebrate and share the rich culture of Minas Gerais, Brazil. Through it, you can explore amazing aspects of local cuisine, appreciate the beauty of tourist destinations, learn about traditional festivals, and immerse yourself in the state's cultural wealth. Browse our sections and discover all that Minas has to offer.  [Visit here !](https://pris-c.github.io/uai-pois/index.html)
 
 | ![Imagem 1](imagens/prints-paginas/pagina-inicial.png) | ![Imagem 2](imagens/prints-paginas/pagina-culinaria.png) | ![Imagem 3](imagens/prints-paginas/pagina-contacto.png) |
 | :----------------------------------------------------: | :------------------------------------------------------: | :-----------------------------------------------------: |
-|                     Página Inicial                     |                     Página Culinária                     |                     Página Contacto                     |
+|                       Home Page                        |                       Cuisine Page                       |                       Contact Page                      |
 
-## Estrutura do Projeto
+## Project Structure
 
-O projeto está organizado da seguinte forma:
+The project is organized as follows:
 
 ```plaintext
 uai-pois/
@@ -50,67 +50,67 @@ uai-pois/
 └── turismo.html
 ```
 
-## Descrição das Páginas
+## Page Descriptions
 
-### Página Inicial (`index.html`)
+### Home Page (`index.html`)
 
-- **Descrição**: Página inicial do site.
-- **Recursos**:
-  - Navbar com links para outras seções.
-  - Rodapé com links para redes sociais.
+- **Description**: The website's homepage.
+- **Features**:
+  - Navbar with links to other sections.
+  - Footer with links to social media.
 
-### Culinária (`culinaria.html`)
+### Cuisine (`culinaria.html`)
 
-- **Descrição**: Apresenta a rica gastronomia mineira com textos descritivos e uma galeria de imagens.
-- **Recursos**:
-  - Galeria de imagens de pratos típicos.
-  - Texto descritivo sobre a influência e importância da culinária mineira.
+- **Description**: Presents the rich gastronomy of Minas Gerais with descriptive texts and an image gallery.
+- **Features**:
+  - Image gallery of typical dishes.
+  - Descriptive text about the influence and importance of Minas Gerais cuisine.
 
-### Turismo (`turismo.html`)
+### Tourism (`turismo.html`)
 
-- **Descrição**: Informações sobre os pontos turísticos de Minas Gerais.
-- **Recursos**:
-  - Página não implementada
+- **Description**: Information about tourist attractions in Minas Gerais.
+- **Features**:
+  - Page not implemented.
 
 ### Festas (`festas.html`)
 
-- **Descrição**: Aborda as festas tradicionais de Minas Gerais.
-- **Recursos**:
-  - Página não implementada
+- **Description**: Covers the traditional festivals of Minas Gerais.
+- **Features**:
+  - Page not implemented.
 
-### Contacto (`contacto.html`)
+### Contact (`contacto.html`)
 
-- **Descrição**: Página de contato para os usuários entrarem em comunicação.
-- **Recursos**:
-  - Formulário de contato com campos para nome, assunto, telefone, e-mail e mensagem.
-  - Toast de confirmação de envio de mensagem.
+- **Description**:  Contact page for users to get in touch.
+- **Features**:
+  - Contact form with fields for name, subject, phone, email, and message.
+  - Confirmation toast for message submission.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- **HTML**: Estruturação das páginas.
-- **CSS**: Estilos das páginas, com uso de [Bootstrap](https://getbootstrap.com/) para facilitar a responsividade e estilização, [Bootstrap Icons](https://icons.getbootstrap.com/) para ícones e [Google Fonts](https://fonts.google.com/) para fontes personalizadas.
-- **JavaScript**: Scripts para interatividade das páginas.
+- **HTML**: Structuring the pages.
+- **CSS**: tyling the pages, using [Bootstrap](https://getbootstrap.com/) for easier responsiveness and styling,  [Bootstrap Icons](https://icons.getbootstrap.com/) for icons, and [Google Fonts](https://fonts.google.com/) for custom fonts.
+- **JavaScript**: Scripts for page interactivity.
 
-## Como Executar o Projeto
+## How to Run the Project
 
-1. Clone o repositório:
+1. Clone the repository:
 
    ```sh
    git clone https://github.com/Pris-c/uai-pois.git
    ```
 
-2. Navegue até o diretório do projeto
+2. Navigate to the project directory:
 
    ```sh
    cd uai-pois
    ```
 
-3. Abra o arquivo `index.html` em um navegador web para visualizar o site.
+3. Open the `index.html` file in a web browser to view the site.
 
-## Contribuição
+## Contribution
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias e correções.
+Contributions are welcome! Feel free to open issues or submit pull requests with improvements and fixes.
 
-## Autor
+## Author
 
 Priscila Campos 👩‍💻
